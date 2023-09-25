@@ -20,8 +20,10 @@ In the meantime, below is an example of what you can do with just a few lines of
 import streamlit as st
 import pandas as pd
 import re
-import plotly.express as plt
+#import plotly.express as plt
 import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+
 
 # Load your data
 def load_data():
