@@ -18,7 +18,7 @@ import matplotlib.cm as cm
 
 # Load your data
 def load_data():
-    df = pd.read_csv(r"C:\Users\Nouran\Desktop\\Egyptian Doctors Data.csv")
+    df = pd.read_csv(r"C:\Users\Nouran\Desktop\Egyptian Doctors Data.csv")
     return df
 
 df = load_data()
